@@ -13,16 +13,16 @@ The proyect was written in C and tested on a VM running Lubuntu 4.0
   ```bash
    cd ./T.U.K.I/scripts
   ```
-5. Run the scripts to install the dependencies and to make all the files
-   ```bash
+4. Run the scripts to install the dependencies and to make all the files
+  ```bash
    ./instalar_librerias.sh
    ./makeall.sh
-   ```
+  ```
 6. Run the five modules
-   ```bash
+  ```bash
     cd ./<module>
      ./module
-   ```
+  ```
 7. Run the test scripts
 ## Modules
 
