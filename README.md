@@ -25,4 +25,13 @@ The proyect was written in C and tested on a VM running Lubuntu 4.0
   ```
 7. Run the test scripts
 ## Modules
-
+- **Console**
+This module handles the input of instructions, allowing users to interact with the system through a command-line interface. It simulates the user input process in a real operating system.
+- **Memory**
+The memory module simulates the rapid access memory (RAM) that the CPU works with. It manages memory allocation, deallocation, and ensures efficient use of the system's resources.
+- **Kernel**
+The kernel module manages the interconnections between the different components of the system. It acts as the central core that handles communication between the CPU, memory, console, and file system.
+- **File System**
+This module manages files within the operating system. It simulates file creation, reading, writing, and deletion, providing basic file management functionality.
+- **CPU** 
+This module is responsible for processing the instructions provided by the Console. It simulates a basic CPU operation, including instruction fetching, decoding, and execution.
